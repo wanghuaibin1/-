@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米账号---登录</title>
+    <!-- 网站.ico图标路径 -->
+    <link rel="Shortcut Icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/base 初始化.css">
+    <link rel="stylesheet" href="../css/登录与注册.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3427368_fyyr5auobke.css">
+</head>
+
+<body>
+    <div class="mi-sider-layout">
+        <div class="mi-sider-layout-sider">
+            <div class="mi-sider-layout-banner">
+
+            </div>
+        </div>
+        <div class="mi-sider-layout-content">
+            <div class="mi-sider-layout-scroll">
+                <div class="mi-layout">
+
+                    <div class="mi-layout-header">
+                        <div class="mi-layout-title">
+                            <div class="header-logo" style="float: left;">
+                                <h1>
+                                    <a href="index.html" title="编组">小米商城</a>
+                                </h1>
+                            </div>
+                            小米账号
+                        </div>
+                        <div class="mi-layout-nav">
+                            <ul>
+                                <li><a href="javascript:;">用户协议</a></li>
+                                <li><a href="javascript:;">隐私政策</a></li>
+                                <li><a href="javascript:;">帮助中心</a></li>
+                                <span style="margin: 0 6px;
+                                float: left;
+                                color: rgb(77, 77, 77)">|</span>
+                                <li class="language" style="position:relative ;"><a href="javascript:;">中文(简体) <i
+                                            class="iconfont">&#xe600;</i></a>
+                                    <div class="language-switch">
+                                        <span>‎‎中文(繁體)‎</span>
+                                        <span>‎English</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mi-layout-container">
+                        <!--cart 卡片 -->
+                        <div class="mi-layout-cart">
+                            <!-- 二维码 -->
+                            <div class="code">
+                                <span class="QR-code iconfont"><img src="../images背景图片之类/二维码.png" alt=""></span>
+                                <span class="scan-code">
+                                    扫码登陆<i></i>
+                                </span>
+                            </div>
+                            <!-- 输入  标签-->
+                            <div class="ant-tabs">
+                                <!-- 标签导航 -->
+                                <div class="tabs-nav">
+                                    <div class="tabs-nav-wrap">
+                                        <div class="tabs-nav-list">
+                                            <div class="tabs-nav-signIn-register">
+                                                <a style="color: #fff;" href="javascript:;" class="login">登录</a>
+                                            </div>
+                                            <div class="tabs-nav-signIn-register">
+                                                <a href="javascript:;" class="register">注册</a>
+                                            </div>
+                                            <div class="tabs-nav-Underline">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 标签内容 -->
+                                <div class="tabs-content-holder">
+                                    <div class="ant-tabs-content">
+                                        <!-- 登录 -->
+                                        <div class="tabs-content-animated">
+                                            <div>
+                                                <div class="mi-form-content" style="padding:20px 0 0 0 ;width: 100%;">
+                                                    <form action="index.html" method="post">
+                                                        <div class="mi-form-input" style="position: relative;">
+                                                            <input type="text" id="whb" class="account-number" 
+                                                                style="width: 100%; border-radius: 4px;">
+                                                            <label class="mi-floating-labe" for="whb"
+                                                                style="pointer-events: none;">邮箱/手机号码/小米ID</label>
+                                                        </div>
+                                                        <div class="tips">请输入帐号</div>
+                                                        <div class="mi-form-input"
+                                                            style="position: relative;margin-top: 23px;    border-radius: 4px;">
+                                                            <div>
+                                                                <input type="password" id="whb1"
+                                                                    style="border-radius:4px 0 0 4px ;">
+                                                                <label for="whb1" class="mi-floating-labe" 
+                                                                    style="pointer-events: none;">密码</label>
+                                                            </div>
+                                                            <div class="show">
+                                                                <svg viewBox="0 0 20 20" width="1em" height="1em"
+                                                                    fill="currentColor" class="mi-password-field__icon">
+
+                                                                    <path
+                                                                        d="M19.78 7.738a.964.964 0 00-1.488-1.227 10.567 10.567 0 01-2.159 1.98 10.487 10.487 0 01-5.958 1.848 10.514 10.514 0 01-2.826-.381 10.394 10.394 0 01-1.977-.776 10.612 10.612 0 01-3.646-3.095.964.964 0 00-1.547 1.15c.487.655 1.037 1.26 1.642 1.808a.955.955 0 00-.084.17l-1.01 2.692a.964.964 0 101.806.677l.868-2.32a12.316 12.316 0 002.632 1.298l-.528 2.696a.964.964 0 101.893.371l.504-2.569c1.358.25 2.747.275 4.113.072l.44 2.417a.964.964 0 101.898-.346l-.455-2.502a12.37 12.37 0 002.381-1.029l.993 2.333a.964.964 0 001.775-.756l-1.139-2.673a12.537 12.537 0 001.871-1.838z">
+                                                                    </path>
+                                                                    <path style="display: none;"
+                                                                        d="M10 3c4.003 0 7.53 2.102 9.593 5.291a2.53 2.53 0 010 2.75c-2.063 3.19-5.59 5.292-9.593 5.292s-7.53-2.101-9.593-5.29a2.53 2.53 0 010-2.752C2.47 5.101 5.997 3 10 3zm-.012 2.333a4.337 4.337 0 00-4.34 4.334A4.337 4.337 0 009.988 14c2.397 0 4.34-1.94 4.34-4.333a4.337 4.337 0 00-4.34-4.334zm0 1.334a3.002 3.002 0 013.004 3c0 1.657-1.345 3-3.004 3a3.002 3.002 0 01-3.005-3c0-1.657 1.345-3 3.005-3z"
+                                                                        fill-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tips">请输入登录密码</div>
+
+                                                        <div class="mi-treaty">
+                                                            <label class="mi-clause">
+                                                                <span class="ant-checkbox">
+                                                                    <input type="checkbox">
+                                                                    <span class="ant-checkbox-inner"></span>
+                                                                </span>
+                                                                <span class="ant-xy"
+                                                                    style="color:rgb(77,77,77) ;">已阅读并同意小米帐号 <a
+                                                                        target="_blank" rel="noopener noreferrer"
+                                                                        href="https://cn.account.xiaomi.com/about/protocol/agreement?_locale=zh_CN">用户协议</a>
+                                                                    和 <a target="_blank" rel="noopener noreferrer"
+                                                                        href="https://cn.account.xiaomi.com/about/protocol/privacy?_locale=zh_CN">隐私政策</a></span>
+                                                            </label>
+                                                        </div>
+                                                        <button type="button" class="Sign-in" onclick="jjj()">登录</button>
+                                                    </form>
+                                                    <div class="mi-form-actions">
+                                                        <div class="mi-form-actions-atart">
+                                                            <a class="mi-external-url mi-link"
+                                                                href="https://cn.account.xiaomi.com/pass/forgetPassword?callback=http%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252F%26sign%3DNzY3MDk1YzczNmUwMGM4ODAxOWE0NjRiNTU5ZGQyMzFhYjFmOGU0Nw%2C%2C&sid=mi_eshop&_qrsize=180&_bannerBiz=">忘记密码？</a>
+                                                        </div>
+                                                        <div class="mi-form-actions-end">
+                                                            <a class="mi-link"
+                                                                href="https://cn.account.xiaomi.com/fe/service/login/phone?_qrsize=180&sid=mi_eshop&qs=%253Fcallback%253Dhttp%25253A%25252F%25252Forder.mi.com%25252Flogin%25252Fcallback%25253Ffollowup%25253Dhttps%2525253A%2525252F%2525252Fwww.mi.com%2525252F%252526sign%25253DNzY3MDk1YzczNmUwMGM4ODAxOWE0NjRiNTU5ZGQyMzFhYjFmOGU0Nw%25252C%25252C%2526sid%253Dmi_eshop%2526_qrsize%253D180&callback=http%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252F%26sign%3DNzY3MDk1YzczNmUwMGM4ODAxOWE0NjRiNTU5ZGQyMzFhYjFmOGU0Nw%2C%2C&_sign=w1RBM6cG8q2xj5JzBPPa65QKs9w%3D&serviceParam=%7B%22checkSafePhone%22%3Afalse%2C%22checkSafeAddress%22%3Afalse%2C%22lsrp_score%22%3A0.0%7D&showActiveX=false&theme=&needTheme=false&bizDeviceType=&_locale=zh_CN&_uRegion=CN">手机号登录</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="mi-sns-login">
+                                                    <div class="mi-sns-login__title">其他方式登录</div>
+                                                    <div class="mi-sns-login__content">
+                                                        <div class="mi-sns-login__list">
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="支付宝登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="alipay">
+                                                                        <path
+                                                                            d="M10.35 25.898c-.543.439-1.125 1.076-1.294 1.886-.23 1.109-.048 2.496 1.021 3.583 1.296 1.32 3.263 1.68 4.112 1.744 2.31.165 4.77-.978 6.626-2.285a14.633 14.633 0 003.162-3.133c-2.667-1.376-5.996-2.898-9.555-2.75-1.818.076-3.12.454-4.072.956zm33.821 6.09A22.878 22.878 0 0046.001 23C46 10.319 35.683 0 23 0S0 10.319 0 23c0 12.684 10.315 23 23 23 7.654 0 14.441-3.761 18.624-9.53-4.82-2.4-9.646-4.785-14.48-7.156-1.916 2.184-4.746 4.372-7.943 5.324-2.01.598-3.822.825-5.715.438-1.875-.383-3.257-1.261-4.062-2.142-.41-.449-.88-1.02-1.222-1.699.032.086.055.137.055.137s-.196-.337-.346-.876a4.202 4.202 0 01-.16-1.401c-.02-.362.005-.726.077-1.081.187-.91.575-1.967 1.58-2.952 2.203-2.157 5.154-2.274 6.684-2.265 2.265.014 6.201 1.005 9.515 2.178.918-1.957 1.507-4.048 1.886-5.44H13.717v-1.49h7.075v-2.982h-8.567v-1.489h8.565v-2.979c0-.41.081-.745.745-.745h3.352v3.724H34.2v1.49h-9.312v2.98h7.45s-.748 4.17-3.088 8.28c5.192 1.854 12.494 4.71 14.92 5.664z"
+                                                                            fill="#1989fa"></path>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="微信登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="wechat">
+                                                                        <g fill="#50b674">
+                                                                            <path
+                                                                                d="M14.345 17.311a1.505 1.505 0 103.01 0 1.505 1.505 0 00-3.01 0zm6.74-.04a1.505 1.505 0 103.01 0 1.505 1.505 0 00-3.01 0zm3.756 6.732a1.045 1.045 0 102.09 0 1.045 1.045 0 00-2.09 0zm5.31.084a1.045 1.045 0 102.092 0 1.045 1.045 0 00-2.091 0z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M23 0A23.001 23.001 0 006.736 39.263 23 23 0 0046 22.999 22.984 22.984 0 0023 0zm-3.93 28.311c-1.212 0-2.175-.25-3.387-.501l-3.387 1.673.961-2.885c-2.426-1.674-3.849-3.849-3.849-6.525 0-4.601 4.35-8.197 9.662-8.197 4.725 0 8.906 2.886 9.743 6.774a6.763 6.763 0 00-.921-.042c-4.601 0-8.197 3.429-8.197 7.652.01.676.11 1.348.293 1.998-.335 0-.628.042-.92.042zm14.135 3.387l.71 2.426-2.634-1.463c-.961.25-1.924.502-2.885.502-4.601 0-8.199-3.136-8.199-6.974 0-3.837 3.596-6.984 8.196-6.984 4.35 0 8.197 3.136 8.197 6.984 0 2.133-1.423 4.057-3.387 5.52z">
+                                                                            </path>
+                                                                        </g>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="QQ登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="qq">
+                                                                        <path
+                                                                            d="M23 0C10.31 0 0 10.31 0 23s10.31 23 23 23 23-10.31 23-23S35.69 0 23 0zm10.363 29.926c-.053.053-.106.053-.159.106-.634-.159-1.374-.74-1.692-1.216-.158-.159-.211-.423-.475-.53 0 .953-.582 1.852-1.005 2.486-.159.211-.635.582-.635.793.16.106.37.159.582.212.476.211 1.163.581 1.428 1.004.105.159.264.317.317.476.74 1.745-1.64 2.168-2.855 2.432s-3.49-.476-4.124-.846c-.37-.264-.74-.846-1.322-.846-.159.106-.635.053-.9.053-.74 1.48-4.6 2.168-6.661 1.375-.635-.212-1.956-.793-1.692-1.798.211-.846.899-1.322 1.586-1.639.264-.159.846-.211 1.005-.476-.582-.423-1.11-1.269-1.375-1.956-.159-.37-.212-1.163-.423-1.428-.37.529-1.428 1.64-2.326 1.48-.16-.21-.318-.422-.423-.687-.212-.687-.106-1.797.105-2.432.37-1.322.74-2.273 1.428-3.225.211-.317.529-.529.74-.846-.423-.423-.317-1.692-.053-2.22.159-.37.423-.318.476-.9-.106-.158 0-.37-.053-.581-.211-.952.159-2.115.423-2.855.9-2.38 2.432-4.072 4.706-5.023.529-.212 1.163-.37 1.745-.476.264-.053.528 0 .74-.106 5.34-.053 8.037 2.75 9.041 7.032.159.688 0 1.586 0 2.274 1.216.264 1.48 2.696.476 3.384V23c.37.634.846 1.269 1.163 1.956.318.74.423 1.586.635 2.485.211.687-.106 2.274-.423 2.485z"
+                                                                            fill="#18acfc"></path>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="微博登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="weibo">
+                                                                        <g fill="#ea5d5c">
+                                                                            <path
+                                                                                d="M20.156 21.662c-4.35.21-7.862 2.55-7.862 5.478s3.513 5.144 7.862 4.935c4.35-.21 7.862-2.97 7.862-5.897-.042-2.885-3.555-4.725-7.862-4.516zm2.927 7.402c-1.338 1.756-3.972 2.593-6.523 1.17-1.213-.668-1.171-1.965-1.171-1.965s-.502-4.14 3.847-4.642c4.391-.543 5.186 3.68 3.847 5.437z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M20.156 26.262a.613.613 0 00-.167.836c.125.251.502.293.752.084.251-.21.377-.585.21-.836-.126-.251-.46-.293-.795-.084zm-2.05.585a1.53 1.53 0 00-1.38 1.506c0 .67.67 1.17 1.465 1.087.794-.083 1.463-.71 1.463-1.422s-.627-1.254-1.547-1.17z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M23 0C10.287 0 0 10.287 0 23s10.287 23 23 23 23-10.287 23-23S35.713 0 23 0zm8.866 28.144c-1.799 3.847-7.695 5.73-12.044 5.394-4.14-.334-9.493-1.714-10.036-6.816 0 0-.293-2.3 1.923-5.269 0 0 3.178-4.475 6.858-5.77 3.722-1.255 4.14.877 4.14 2.174-.209 1.087-.543 1.714.837 1.296 0 0 3.638-1.715 5.143-.21 1.213 1.214.21 2.928.21 2.928s-.502.544.543.753c.962.167 4.224 1.673 2.425 5.52zm-3.597-10.622a.733.733 0 01-.71-.71c0-.42.334-.712.71-.712 0 0 4.475-.836 3.931 4.015v.083a.723.723 0 01-.71.628.705.705 0 01-.712-.711c0-.084.711-3.304-2.509-2.593zm7.57 4.642c-.126.836-.544.502-1.004.502-.586 0-1.046-.753-1.046-1.339 0-.501.21-1.003.21-1.003.041-.21.543-1.547-.335-3.513-1.59-2.718-4.768-2.718-5.144-2.593-.376.168-.962.251-.962.251-.585 0-1.045-.46-1.045-1.045 0-.502.334-.878.752-1.004 0 0 0 .042.042.042s.084.042.084.042c.46-.084 2.049-.21 3.554.167 2.802.67 6.566 3.764 4.893 9.493z">
+                                                                            </path>
+                                                                        </g>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 注册 -->
+                                        <div class=" tabs-content-animated">
+                                            <div>
+                                                <div class="mi-form-content" style="padding:20px 0 0 0 ;width: 100%;">
+                                                    <form action="index.html" method="post">
+
+                                                        <div class="mi-form-input register-js" tabindex="0"
+                                                            style="position: relative;">
+                                                            <span class="ant-select-selection-search">
+                                                                <input autocomplete="off" type="search"
+                                                                    class="ant-select-selection-search-input"
+                                                                    role="combobox" aria-haspopup="listbox"
+                                                                    aria-owns="rc_select_0_list"
+                                                                    aria-autocomplete="list"
+                                                                    aria-controls="rc_select_0_list"
+                                                                    aria-activedescendant="rc_select_0_list_257"
+                                                                    readonly="" unselectable="on" value=""
+                                                                    id="rc_select_0" style="opacity: 0;z-index: 0;"
+                                                                    aria-expanded="false">
+                                                            </span>
+                                                            <span class="ant-select-selection-address">国家/地区</span>
+                                                            <span class="ant-select-selection-item" title="中国">中国</span>
+                                                            <i class="ant-select-selection-tubiao"></i>
+                                                        </div>
+
+                                                        <div class="mi-form-input register-js" tabindex="0"
+                                                            style="position: relative;margin-top: 23px;    border-radius: 4px;">
+                                                            <div class="ant-country-code">
+                                                                <span class="ant-select-selection-address guojiama">国家码</span>
+                                                                <span class="ant-select-selection-address-1">+86</span>
+                                                                <i class="ant-select-selection-tubiao"></i>
+                                                            </div>
+                                                            <div style="position:relative; width: 60%; " id="app">
+                                                                <input type="text" maxlength="11" id="shojihao" v-model="username"
+                                                                    style="border-radius: 0 4px 4px 0;">
+                                                                <label for="shojihao"
+                                                                    class="mi-floating-labe mi-floating-register"
+                                                                    style="pointer-events: none;">手机号/账号</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tips phone-number">请输入手机号码/账号 </div>
+
+
+                                                        <div class="mi-form-input register-js"
+                                                            style="position: relative;margin-top: 23px;display: block;">
+                                                            <div style="width:100%; display:table-cell;">
+                                                                <input type="text" id="yanzhengma" maxlength="6"
+                                                                    style="border-radius: 4px 0 0 4px;">
+                                                                <label for="yanzhengma" class="mi-floating-labe mi-floating-yanzhengma"
+                                                                    style="pointer-events: none;">请输入验证码/密码</label>
+                                                            </div>
+                                                            <div class="mi-verification-code">
+                                                                <button ytpe="button">
+                                                                    获取验证码/密码
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tips verification-code">请输入短信验证码/密码</div>
+
+
+                                                        <div class="mi-treaty">
+                                                            <label class="mi-clause">
+                                                                <span class="ant-checkbox">
+                                                                    <input type="checkbox">
+                                                                    <span class="ant-checkbox-inner"></span>
+                                                                </span>
+                                                                <span class="ant-xy"
+                                                                    style="color:rgb(77,77,77) ;">已阅读并同意小米帐号 <a
+                                                                        target="_blank" rel="noopener noreferrer"
+                                                                        href="https://cn.account.xiaomi.com/about/protocol/agreement?_locale=zh_CN">用户协议</a>
+                                                                    和 <a target="_blank" rel="noopener noreferrer"
+                                                                        href="https://cn.account.xiaomi.com/about/protocol/privacy?_locale=zh_CN">隐私政策</a></span>
+                                                            </label>
+                                                        </div>
+                                                        <button type="button" onclick="kkk()" class="Sign-in">注册</button>
+                                                    </form>
+                                                    <div class="mi-form-actions">
+                                                        <div class="mi-form-actions-atart">
+                                                            <a href="#">收不到验证码?</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="mi-sns-login">
+                                                    <div class="mi-sns-login__title">其他方式登录</div>
+                                                    <div class="mi-sns-login__content">
+                                                        <div class="mi-sns-login__list">
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="支付宝登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="alipay">
+                                                                        <path
+                                                                            d="M10.35 25.898c-.543.439-1.125 1.076-1.294 1.886-.23 1.109-.048 2.496 1.021 3.583 1.296 1.32 3.263 1.68 4.112 1.744 2.31.165 4.77-.978 6.626-2.285a14.633 14.633 0 003.162-3.133c-2.667-1.376-5.996-2.898-9.555-2.75-1.818.076-3.12.454-4.072.956zm33.821 6.09A22.878 22.878 0 0046.001 23C46 10.319 35.683 0 23 0S0 10.319 0 23c0 12.684 10.315 23 23 23 7.654 0 14.441-3.761 18.624-9.53-4.82-2.4-9.646-4.785-14.48-7.156-1.916 2.184-4.746 4.372-7.943 5.324-2.01.598-3.822.825-5.715.438-1.875-.383-3.257-1.261-4.062-2.142-.41-.449-.88-1.02-1.222-1.699.032.086.055.137.055.137s-.196-.337-.346-.876a4.202 4.202 0 01-.16-1.401c-.02-.362.005-.726.077-1.081.187-.91.575-1.967 1.58-2.952 2.203-2.157 5.154-2.274 6.684-2.265 2.265.014 6.201 1.005 9.515 2.178.918-1.957 1.507-4.048 1.886-5.44H13.717v-1.49h7.075v-2.982h-8.567v-1.489h8.565v-2.979c0-.41.081-.745.745-.745h3.352v3.724H34.2v1.49h-9.312v2.98h7.45s-.748 4.17-3.088 8.28c5.192 1.854 12.494 4.71 14.92 5.664z"
+                                                                            fill="#1989fa"></path>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="微信登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="wechat">
+                                                                        <g fill="#50b674">
+                                                                            <path
+                                                                                d="M14.345 17.311a1.505 1.505 0 103.01 0 1.505 1.505 0 00-3.01 0zm6.74-.04a1.505 1.505 0 103.01 0 1.505 1.505 0 00-3.01 0zm3.756 6.732a1.045 1.045 0 102.09 0 1.045 1.045 0 00-2.09 0zm5.31.084a1.045 1.045 0 102.092 0 1.045 1.045 0 00-2.091 0z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M23 0A23.001 23.001 0 006.736 39.263 23 23 0 0046 22.999 22.984 22.984 0 0023 0zm-3.93 28.311c-1.212 0-2.175-.25-3.387-.501l-3.387 1.673.961-2.885c-2.426-1.674-3.849-3.849-3.849-6.525 0-4.601 4.35-8.197 9.662-8.197 4.725 0 8.906 2.886 9.743 6.774a6.763 6.763 0 00-.921-.042c-4.601 0-8.197 3.429-8.197 7.652.01.676.11 1.348.293 1.998-.335 0-.628.042-.92.042zm14.135 3.387l.71 2.426-2.634-1.463c-.961.25-1.924.502-2.885.502-4.601 0-8.199-3.136-8.199-6.974 0-3.837 3.596-6.984 8.196-6.984 4.35 0 8.197 3.136 8.197 6.984 0 2.133-1.423 4.057-3.387 5.52z">
+                                                                            </path>
+                                                                        </g>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="QQ登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="qq">
+                                                                        <path
+                                                                            d="M23 0C10.31 0 0 10.31 0 23s10.31 23 23 23 23-10.31 23-23S35.69 0 23 0zm10.363 29.926c-.053.053-.106.053-.159.106-.634-.159-1.374-.74-1.692-1.216-.158-.159-.211-.423-.475-.53 0 .953-.582 1.852-1.005 2.486-.159.211-.635.582-.635.793.16.106.37.159.582.212.476.211 1.163.581 1.428 1.004.105.159.264.317.317.476.74 1.745-1.64 2.168-2.855 2.432s-3.49-.476-4.124-.846c-.37-.264-.74-.846-1.322-.846-.159.106-.635.053-.9.053-.74 1.48-4.6 2.168-6.661 1.375-.635-.212-1.956-.793-1.692-1.798.211-.846.899-1.322 1.586-1.639.264-.159.846-.211 1.005-.476-.582-.423-1.11-1.269-1.375-1.956-.159-.37-.212-1.163-.423-1.428-.37.529-1.428 1.64-2.326 1.48-.16-.21-.318-.422-.423-.687-.212-.687-.106-1.797.105-2.432.37-1.322.74-2.273 1.428-3.225.211-.317.529-.529.74-.846-.423-.423-.317-1.692-.053-2.22.159-.37.423-.318.476-.9-.106-.158 0-.37-.053-.581-.211-.952.159-2.115.423-2.855.9-2.38 2.432-4.072 4.706-5.023.529-.212 1.163-.37 1.745-.476.264-.053.528 0 .74-.106 5.34-.053 8.037 2.75 9.041 7.032.159.688 0 1.586 0 2.274 1.216.264 1.48 2.696.476 3.384V23c.37.634.846 1.269 1.163 1.956.318.74.423 1.586.635 2.485.211.687-.106 2.274-.423 2.485z"
+                                                                            fill="#18acfc"></path>
+                                                                    </svg></span></div>
+                                                            <div class="mi-sns-login__item"><span
+                                                                    class="mi-sns-login__icon" title="微博登录"><svg
+                                                                        viewBox="0 0 46 46" width="1em" height="1em"
+                                                                        aria-label="weibo">
+                                                                        <g fill="#ea5d5c">
+                                                                            <path
+                                                                                d="M20.156 21.662c-4.35.21-7.862 2.55-7.862 5.478s3.513 5.144 7.862 4.935c4.35-.21 7.862-2.97 7.862-5.897-.042-2.885-3.555-4.725-7.862-4.516zm2.927 7.402c-1.338 1.756-3.972 2.593-6.523 1.17-1.213-.668-1.171-1.965-1.171-1.965s-.502-4.14 3.847-4.642c4.391-.543 5.186 3.68 3.847 5.437z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M20.156 26.262a.613.613 0 00-.167.836c.125.251.502.293.752.084.251-.21.377-.585.21-.836-.126-.251-.46-.293-.795-.084zm-2.05.585a1.53 1.53 0 00-1.38 1.506c0 .67.67 1.17 1.465 1.087.794-.083 1.463-.71 1.463-1.422s-.627-1.254-1.547-1.17z">
+                                                                            </path>
+                                                                            <path
+                                                                                d="M23 0C10.287 0 0 10.287 0 23s10.287 23 23 23 23-10.287 23-23S35.713 0 23 0zm8.866 28.144c-1.799 3.847-7.695 5.73-12.044 5.394-4.14-.334-9.493-1.714-10.036-6.816 0 0-.293-2.3 1.923-5.269 0 0 3.178-4.475 6.858-5.77 3.722-1.255 4.14.877 4.14 2.174-.209 1.087-.543 1.714.837 1.296 0 0 3.638-1.715 5.143-.21 1.213 1.214.21 2.928.21 2.928s-.502.544.543.753c.962.167 4.224 1.673 2.425 5.52zm-3.597-10.622a.733.733 0 01-.71-.71c0-.42.334-.712.71-.712 0 0 4.475-.836 3.931 4.015v.083a.723.723 0 01-.71.628.705.705 0 01-.712-.711c0-.084.711-3.304-2.509-2.593zm7.57 4.642c-.126.836-.544.502-1.004.502-.586 0-1.046-.753-1.046-1.339 0-.501.21-1.003.21-1.003.041-.21.543-1.547-.335-3.513-1.59-2.718-4.768-2.718-5.144-2.593-.376.168-.962.251-.962.251-.585 0-1.045-.46-1.045-1.045 0-.502.334-.878.752-1.004 0 0 0 .042.042.042s.084.042.084.042c.46-.084 2.049-.21 3.554.167 2.802.67 6.566 3.764 4.893 9.493z">
+                                                                            </path>
+                                                                        </g>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mi-copyright">小米公司版权所有-京ICP备10046444-<a
+                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"
+                            target="_blank" rel="noopener noreferrer">京公网安备11010802020134号</a>-京ICP证110507号</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/vue-2.6.12.js"></script>
+    <script src="../js/登录注册.js"></script>
+</body>
+
+</html>

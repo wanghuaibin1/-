@@ -1,0 +1,307 @@
+.shortcut {
+    background-color: rgb(51, 51, 51);
+}
+
+.banxing {
+    width: 1226px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.banxing a:hover {
+    color: aqua;
+}
+
+.banxing-left {
+    float: left;
+}
+
+.banxing-left ul li {
+    float: left;
+    font-size: 10px;
+    position: relative;
+}
+
+.banxing-left ul li a {
+    color: rgb(176, 176, 176);
+    display: inline-block;
+}
+
+.banxing-left ul li:nth-child(even) {
+    width: 2px;
+    height: 20px;
+    margin: 9px 5px;
+    background-color: rgb(57, 57, 57);
+}
+
+.download {
+    position: absolute;
+    text-align: center;
+    /* display: none; */
+    top: 16px;
+    left: -25px;
+    transition: 0.5s ease;
+    width: 100px;
+    overflow: hidden;
+    height: 0;
+    z-index: 10;
+}
+
+/* .download::before,.download::after{
+    content: " ";
+    display: table;
+}
+.download::after {
+    clear: both} */
+.download img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+.banxing-right {
+    float: right;
+}
+
+.banxing-right-one {
+    position: relative;
+    text-align: center;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: rgb(176, 176, 176);
+    background-color: rgb(66, 66, 66);
+}
+
+.banxing-right-one div {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    cursor: default;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    transition: 0.5s ease;
+    height: 0;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.banxing-right-two {
+    float: right;
+    margin-right: 10px;
+}
+
+.banxing-right-two ul li {
+    float: left;
+    font-size: 10px;
+}
+
+.banxing-right-two ul li:nth-child(even) {
+    width: 2px;
+    height: 20px;
+    margin: 9px 5px;
+    background-color: rgb(57, 57, 57);
+}
+
+.banxing-right-two a {
+    color: rgb(176, 176, 176);
+}
+
+.site-header {
+    position: relative;
+    height: 100px;
+}
+
+
+
+.container {
+    width: 1226px;
+    height: 100px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.header-logo {
+    display: inline-block;
+    float: left;
+    margin-top: 22px;
+    width: 56px;
+    height: 56px;
+}
+
+.header-logo a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: aquamarine;
+    background: url(https://s02.mifile.cn/assets/static/image/logo-mi2.png) no-repeat;
+    background-size: 56px 56px;
+    font-size: 0;
+}
+
+.header-nav {
+    float: left;
+    width: 850px;
+}
+
+.nav-box::before,
+.nav-box::after {
+    content: "";
+    display: table;
+}
+
+.nav-box::after {
+    clear: both;
+    overflow: hidden;
+}
+
+.nav-category {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 127px;
+    padding-right: 15px;
+}
+
+.nav-item {
+    float: left;
+    z-index: 10;
+}
+
+.nav-item a {
+    display: block;
+    padding: 40px 10px 38px;
+    color: #333;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+.header-search {
+    float: right;
+    /* width: 296px; */
+    /* height: 100px;
+    margin-top: 25px; */
+}
+
+.header-search form {
+    position: relative;
+    top: 24px;
+    width: 290px;
+    height: 52px;
+    background-color: rgb(39, 104, 160);
+}
+
+.search-01 {
+    position: relative;
+    width: 242px;
+    border: 1px solid rgb(176, 176, 176);
+    border-right: none;
+    position: absolute;
+    padding-left: 10px;
+    height: 52px;
+    box-shadow: none;
+    outline: none;
+}
+
+.search-box {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    z-index: 10;
+    border: 1px solid red;
+    border-top: none;
+    width: 241px;
+    background-color: rgb(255, 255, 255);
+}
+
+.search-box a {
+    display: block;
+    padding-left: 10px;
+    margin: 15px 10px;
+    color: #000;
+    font-size: 15px;
+}
+
+.header-search .icon-sousuo {
+    position: absolute;
+    right: 0;
+    border: 1px solid rgb(176, 176, 176);
+   
+    transition: 0.5s ease;
+    cursor: pointer;
+    height: 52px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.header-search .icon-sousuo:hover {
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    border: transparent;
+}
+
+.item-children {
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 6px 0 #000;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* background-color: aqua; */
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+
+.children {
+    position: relative;
+    width: 1334px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.children .children-list a {
+    display: block;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.children-list li {
+    float: left;
+    padding: 26px 10px 45px;
+}
+
+.children-list li img {
+    border-right: 1px solid rgb(224, 224, 224);
+    padding-right: 25px;
+}
+
+.children-list li p {
+    color: rgb(255, 110, 11);
+    margin-top: 5px;
+}
+
+.header-nav .nav .link {
+    color: red;
+}
+
+.pp {
+    display: none;
+}
+
+.ll .link{
+    color: aqua;
+}
+.kk{
+ height: 220px;
+ 
+}
